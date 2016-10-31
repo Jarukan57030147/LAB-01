@@ -64,18 +64,19 @@ WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 ```
 
 เปลี่ยนจาก MB_OK เป็น MB_OKCANCEL
-
-#include <windows.h>
-int WINAPI
-WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
-{
+``` 
+  #include <windows.h>
+  int WINAPI
+  WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
+  {
 	MessageBox(NULL, "Hello World! This is my first win32 program!",
 		"Lesson1", MB_OKCANCEL);
 	return 0;
-}
+  }
+```
 
-  
-    ![](https://github.com/Jarukan57030147/LAB-01/blob/master/imgs/Capture1.PNG?raw=true)
+![](https://github.com/Jarukan57030147/LAB-01/blob/master/imgs/Capture1.PNG?raw=true)
+
 
 ##[อ้างอิง](https://github.com/Desktop-Programming-Lab-2559/LAB-01/wiki/References)
 WinMain (..), MessageBox(..) 
