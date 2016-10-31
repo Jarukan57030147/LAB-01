@@ -48,11 +48,13 @@ WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 
 ## บันทึกผลการทดลอง
 
-โปรแกรมจะโชว์คำว่า "Hello World! This is my first win32 program!"
+โปรแกรมจะโชว์คำว่า "Hello World! This is my first win32 program!" 
+
  ![](https://github.com/Jarukan57030147/LAB-01/blob/master/imgs/Capture.PNG?raw=true)
 
 ## คำถาม 
 1. นักศึกษาพบปัญหาในการคอมไพล์โปรแกรมหรือไม่ ถ้าเจอให้บอกที่ผิดและแนวทางการแก้ไข
+ 	ไม่พบปัญหาการคอมไพล์
 2. ให้ทดลองแก้ไข <code> MessageBox(...) </code> โดยการเปลี่ยน <code> MB_OK </code> เป็นค่าอื่นๆ [ดูได้จากอ้างอิงตามลิงค์นี้](https://github.com/Desktop-Programming-Lab-2559/LAB-01/blob/master/message-box.md)
 
 ```c 
