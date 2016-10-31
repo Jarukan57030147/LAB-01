@@ -54,15 +54,28 @@ WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 
 ## คำถาม 
 1. นักศึกษาพบปัญหาในการคอมไพล์โปรแกรมหรือไม่ ถ้าเจอให้บอกที่ผิดและแนวทางการแก้ไข
+
  	ไม่พบปัญหาการคอมไพล์
+	
 2. ให้ทดลองแก้ไข <code> MessageBox(...) </code> โดยการเปลี่ยน <code> MB_OK </code> เป็นค่าอื่นๆ [ดูได้จากอ้างอิงตามลิงค์นี้](https://github.com/Desktop-Programming-Lab-2559/LAB-01/blob/master/message-box.md)
 
 ```c 
  	MessageBox(NULL, "Hello World! This is my first win32 program!", "Lesson1", MB_OK);
 ```
-				
 
+เปลี่ยนจาก MB_OK เป็น MB_OKCANCEL
 
+#include <windows.h>
+
+int WINAPI
+WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
+{
+	MessageBox(NULL, "Hello World! This is my first win32 program!",
+		"Lesson1", MB_OKCANCEL);
+	return 0;
+}
+
+![]()
 ##[อ้างอิง](https://github.com/Desktop-Programming-Lab-2559/LAB-01/wiki/References)
 WinMain (..), MessageBox(..) 
  
