@@ -48,7 +48,7 @@ WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 
 ## บันทึกผลการทดลอง
 
-
+โปรแกรมจะโชว์คำว่า "Hello World! This is my first win32 program!"
  ![](https://github.com/Jarukan57030147/LAB-01/blob/master/imgs/Capture.PNG?raw=true)
 
 ## คำถาม 
